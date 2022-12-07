@@ -1,0 +1,85 @@
+*{
+    font-weight: serif, sans-serif, helvetica, arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px;    
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    padding: 10px;
+}
+
+section div {
+    background-color: gray;
+    width: 100%;
+    border: 1px solid black; 
+    position: relative; 
+}
+
+section div h2 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0px 30px;
+}
+
+section div p {
+    padding: 40px 20px 20px 20px;
+}
+
+section .pink-bg{
+    background-color: rgb(212, 151, 161);
+}
+
+section .red-bg{
+    background-color: rgb(207, 85, 85);
+    color: white;
+}
+
+section .yellow-bg{
+    background-color: rgb(228, 228, 108);
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+   .col-md-6, .col-md-12{
+    float: left;
+   }
+   .col-md-6{
+    width: 50%;
+   }
+   .col-md-12{
+    width: 100%;
+   }
+}
+
+@media (min-width: 992px){
+    .col-lg-4{
+     float: left;
+     width: 33%;
+    }
+ }
